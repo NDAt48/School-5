@@ -38,6 +38,7 @@ a {
 
 .main-header {
   margin-bottom: 50px;
+  background-color: rgba(206, 237, 220, 0.5);
 }
 
 .main-header-logo {
@@ -62,6 +63,8 @@ a {
 .site-navigation {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
   width: 600px;
   margin-left: 20px;
 }
@@ -89,6 +92,12 @@ a {
   opacity: 0.3;
 }
 
+.feedback-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .feedback-menu a {
   display: block;
   padding: 15px 10px;
@@ -107,4 +116,32 @@ a {
   background-color: #af1f00;
   color: #FFF7C7;
   opacity: 0.3;
+}
+
+.index-columns {
+  display: flex;
+  justify-content : space-between;
+  margin-bottom: 35px;
+  background-color: rgba(206, 237, 220, 0.5);
+}
+
+.documents-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(206, 237, 220, 0.5);
+}
+
+.main-footer {
+  margin-top: 50px;
+  background-color: rgba(206, 237, 220, 0.5);
+}
+
+.main-footer .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-footer {
+  
 }
