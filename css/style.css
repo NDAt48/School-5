@@ -142,6 +142,9 @@ a {
   justify-content: space-around;
 }
 
-.main-footer {
-  
+.main-footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
 }
